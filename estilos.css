@@ -1,0 +1,59 @@
+body{
+    width: 100%;
+    height: 100%;
+    font: arial, sans-serif;
+}
+
+header{
+    background-color: rgb(28, 27, 27);
+}
+
+header a:link, a:visited, a:hover, a:active, p{
+    color: white;
+    font-size: 16px;
+}
+
+#hero-content{
+    margin-top: 70px;
+}
+
+#btn-1{
+    color: black;
+    background-color: white;
+}
+
+#btn-2{
+    background-color: rgb(72, 65, 65);
+    color: #fff;
+}
+
+#riverdaleLogo{
+    width: 400px;
+}
+
+#btn-2:hover, #btn-1:hover{
+    opacity: 0.9;
+}
+
+#hero{
+    background-image: url(img/riverdaleCapa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    top: 0;
+    height: 500px;
+    color: white;
+}
+
+#hero p{
+    font-size: 18px;
+}
+
+.btn{
+    display: block;
+}
+
+
+.glider_1{
+    margin-left: 10%;
+}
